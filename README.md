@@ -1,21 +1,12 @@
-    num = int(input("Enter the value of num: "))
-      if (num < 0):
-        print("Number is negative.")
-      elif (num == 0):
-        print("Number is Zero.")
-      elif (num == 999):
-        print("Number is Special.")
-      else:
-        print("Number is positive.")
-
-        print("I am happy now")deas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+time=float(input("enter a number:"))
+print("your number is:",time)
+if(time>=0.0 and time<=12):
+    print("good morning")
+elif(time>=12 and time<=17):
+    print("good afternoon")
+elif(time>=17 and time<=21):
+    print("good evening")
+elif(time>=21 and time<=24):
+    print("good night")
+else:
+    print("program to waar gaya")
